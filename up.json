@@ -1,0 +1,11 @@
+{
+    "name":"mbn",
+    "profile":"default",
+    "regions":["us-east-2"],
+    "lambda": {
+      "memory": 512,
+      "timeout": 0,
+      "role": "arn:aws:iam::713774468243:role/MBN_Lambda_Role",
+      "runtime": "nodejs8.10"
+    }
+  }
